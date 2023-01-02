@@ -149,6 +149,8 @@ footer{
     align-items: center;
 }
 #redes{
-    width: 25px;
-    height: 3.5vh;
+    margin-right: 35px;
+    width: 4vh;
+    height: 4vh;
+    background-color: black;
 }
