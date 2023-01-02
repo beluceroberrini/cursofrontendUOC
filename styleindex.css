@@ -11,8 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(241, 247, 196) ;
-  
+    background-color: rgb(241, 247, 196);
 }
 .menu-inicio{
     display: flex;
@@ -34,7 +33,7 @@ header{
 }
 h1{ font-size: 10vh; margin: auto;} 
 h2{ font-size: 7vh; }
-.titulo h3{ font-size: 20px; margin: 12px; text-align: center;}
+.titulo h3{ font-size: 20px; margin: 12px; text-align: center; color: rgb(192, 199, 142);}
 
 h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75);}
 
@@ -83,16 +82,73 @@ h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75
     color:rgb(55, 54, 54);
 }
 .boton{
-    display: inline-block;
     margin-left: 15px;
-    border: 1px transparent rgba(164, 178, 193, 0.679);
+    border: transparent;
     background-color: rgba(178, 178, 178, 0.709);
     color: rgb(53, 52, 52);
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 12px;
 }
+.container-experiencia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 80px;
+}
 
-.boton :hover{
-    background-color: blue;
+.container-experiencia p{
+    font-size: 28px;
+    margin: 40px;
+    padding: 20px;
+    border: 5px solid ;
+    border-radius: 100%;
+}
+/* .circulo1{
+    height: 100px;
+    width: 100px;
+    position: relative;
+ }
+ .circulo1 .dentro, .circulo1 .fuera{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     border-radius: 100%;
+     box-shadow: 2px 2px 2px 2px rgb(163, 19, 173);
+ }
+ .circulo1 .numero{
+     position: absolute;
+     top: 50%;
+ } */
+
+ .aficiones{
+    display: grid;
+    grid-template-columns: repeat(3, 250px) ;
+    grid-template-rows: 50px 20px;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+ .aficion{
+    font-weight: 900;
+    display: flex;
+    border: transparent;
+    border-radius: 3px;
+    background-color: rgb(192, 199, 142);
+    justify-content: space-around;
+    align-self: center;
+    padding: 15px;   
+    font-size: 18px;
+ }
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#redes{
+    width: 25px;
+    height: 3.5vh;
 }
