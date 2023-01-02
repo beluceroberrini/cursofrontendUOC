@@ -1,0 +1,98 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logocasa{
+    width: 28px;
+    margin: 6px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 247, 196) ;
+  
+}
+.menu-inicio{
+    display: flex;
+}
+li{
+    margin-right: 25px;
+}
+header{
+    background-image: url('/imagenes/127728-flores_amarillas_con_hojas_verdes_durante_el_dia-550x310.jpg');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    color: rgb(192, 199, 142);
+}
+h1{ font-size: 10vh; margin: auto;} 
+h2{ font-size: 7vh; }
+.titulo h3{ font-size: 20px; margin: 12px; text-align: center;}
+
+h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75);}
+
+.sobremi{
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    width: 95%;
+    margin: 35px;
+    padding-bottom: 30px;
+}
+.sobremi img{ width: 30%;}
+.parrafos{ 
+    width: 50%; 
+    line-height: 21px; } 
+
+#proyectos{
+    background-color:rgb(241, 247, 196);
+    padding: 5px ;
+}
+.container-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+}
+.proyecto{
+    background-color: antiquewhite;
+    width: 22%;
+    min-height: 350px;
+    border: 1px transparent grey;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgb(125, 123, 123);
+    padding-bottom: 8px;
+    
+}
+.proyecto img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.proyecto p{
+    margin: 15px;
+    font-size: 13px;
+    color:rgb(55, 54, 54);
+}
+.boton{
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px transparent rgba(164, 178, 193, 0.679);
+    background-color: rgba(178, 178, 178, 0.709);
+    color: rgb(53, 52, 52);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.boton :hover{
+    background-color: blue;
+}
