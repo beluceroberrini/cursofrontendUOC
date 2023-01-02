@@ -1,0 +1,41 @@
+.contact{
+    
+}
+.contact-contenedor{
+    align-items: center;
+}
+
+.contact-title{
+    color: rgb(192, 199, 142);
+}
+.name, .emailform, .phone, .message {
+    display: flex;
+    flex-direction: column; 
+}
+.contact-field{
+    width: 80%;
+    height: 50px;
+    margin: 20px 0;
+    font-size: 17px;
+    border: none #000;
+    color: #6B708D ;
+    background-color: rgba(107, 112, 141, 0.1);
+    border-radius: 5px;
+}
+#submit-btn {
+    height: 60px;
+    background-color: #8e9acf92;
+    border-bottom: rgb(255, 255, 255);
+    font-size: 17px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(242, 244, 252);
+    border-style: none;
+    border-radius: 5px;
+    width: 80%;
+
+}
+label{
+    font-size: 18px;
+    margin: 0;
+}
