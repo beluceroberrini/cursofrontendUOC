@@ -11,25 +11,29 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(241, 247, 196);
+    background-color: #8e9acf92;
+    /* background-color:rgb(241, 247, 196); */
     height: 6vh;
 }
 .menu-inicio{
     display: flex;
 }
-ul, a{
+.menu-inicio ul, a{
     font-style: italic;
     padding: 0;
     text-decoration: none;
     list-style: none;
-
 }
-li{
+.menu-inicio li{
     margin-right: 25px;
     color: black;
 }
+.menu-inicio li:hover{
+    font-size: 18px;
+    transition: 0.5s;
+}
 
-header{
+.headerIndex{
     background-image: url('/imagenes/127728-flores_amarillas_con_hojas_verdes_durante_el_dia-550x310.jpg');
     height: 60vh;
     background-size: cover;
@@ -38,15 +42,28 @@ header{
     align-items: center;
 }
 .titulo{
+    line-height: 25px;
     text-align: center;
-    color: rgb(192, 199, 142);
+    color: #9597a1c2;
 }
-h1{ font-size: 10vh; margin: auto;} 
-h2{ font-size: 7vh; }
-.titulo h3{ font-size: 20px; margin: 12px; text-align: center; color: rgb(192, 199, 142);}
+h1{ 
+    font-size: 10vh; 
+    margin: auto;
+} 
+.titulo h2{ 
+    font-size: 7vh; 
+    color: rgb(149, 143, 163);
+}
+.titulo h3{ 
+    font-size: 20px;
+    color: rgb(179, 171, 197);
 
-h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75);}
-
+}
+h3{
+    text-align: center; 
+    font-size: 28px; 
+    color: rgb(109, 109, 109);
+}
 .sobremi{
     display: flex;
     justify-content: space-around   ;
@@ -55,13 +72,27 @@ h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75
     margin: 35px;
     padding-bottom: 30px;
 }
-.sobremi img{ width: 30%;}
+.sobremi img{ 
+    width: 30%;
+}
 .parrafos{ 
     width: 50%; 
-    line-height: 21px; } 
-
+    line-height: 21px; 
+} 
+.experiencia h3{
+    margin-top: 0;
+    color: aliceblue;
+}
+.experiencia{
+    background-color: rgba(165, 164, 163, 0.719);
+    padding: 30px;
+    background-size: cover;
+}
+.grafic{
+    width: 20%;
+}
 #proyectos{
-    background-color:rgb(241, 247, 196);
+    background-color: rgb(255, 255, 255);
     padding: 5px ;
 }
 .container-proyectos{
@@ -100,6 +131,10 @@ h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75
     border-radius: 5px;
     font-size: 12px;
 }
+.proyecto .boton:hover{
+    color: aliceblue;
+    background-color: rgb(179, 171, 197);;
+}
 .container-experiencia{
     display: flex;
     flex-wrap: wrap;
@@ -116,10 +151,10 @@ h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75
 }
 .aficiones{
     display: grid;
-    grid-template-columns: repeat(3, 250px) ;
+    grid-template-columns: repeat(3, 300px) ;
     grid-template-rows: 70px 70px;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     margin-bottom: 70px;
     padding: 30px;
 }
@@ -128,7 +163,7 @@ h3{text-align: center; font-size: 25px; padding-top: 30px; color: rgb(75, 75, 75
     display: flex;
     border: transparent;
     border-radius: 3px;
-    background-color: rgb(192, 199, 142);
+    background-color: rgba(165, 164, 163, 0.719);
     justify-content: space-around;
     align-items: center;
     padding: 15px;   
