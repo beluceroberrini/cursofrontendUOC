@@ -35,6 +35,9 @@ nav{
     margin-top: 25px;
     margin-left: 150px;
 }
+#submit-btn:hover{
+    background-color: #6B708D;
+}
 footer{
     position: absolute;
     bottom: 0;

@@ -11,8 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8e9acf92;
-    /* background-color:rgb(241, 247, 196); */
+    background-color: #717ba892;
     height: 6vh;
 }
 .menu-inicio{
@@ -57,12 +56,11 @@ h1{
 .titulo h3{ 
     font-size: 20px;
     color: rgb(179, 171, 197);
-
 }
 h3{
     text-align: center; 
     font-size: 28px; 
-    color: rgb(109, 109, 109);
+    color: rgb(65, 64, 64);
 }
 .sobremi{
     display: flex;
@@ -81,18 +79,9 @@ h3{
 } 
 .experiencia h3{
     margin-top: 0;
-    color: aliceblue;
-}
-.experiencia{
-    background-color: rgba(165, 164, 163, 0.719);
-    padding: 30px;
-    background-size: cover;
-}
-.grafic{
-    width: 20%;
 }
 #proyectos{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(165, 164, 163, 0.283);
     padding: 5px ;
 }
 .container-proyectos{
@@ -133,21 +122,29 @@ h3{
 }
 .proyecto .boton:hover{
     color: aliceblue;
-    background-color: rgb(179, 171, 197);;
+    background-color: rgb(204, 199, 217);
+}
+.grafic{
+    width: 70%;
+}
+.experiencia{
+    padding: 40px 0;
 }
 .container-experiencia{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 80px;
+    justify-content: center;
 }
-
-.container-experiencia p{
-    font-size: 28px;
-    margin: 40px;
-    padding: 20px;
-    border: 5px solid ;
-    border-radius: 100%;
+.expIndividual{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expIndividual h3{
+    position: absolute;
+    font-size: 35px;
+    color: black;
+    margin-top: 30px;
 }
 .aficiones{
     display: grid;
@@ -169,6 +166,10 @@ h3{
     padding: 15px;   
     font-size: 18px;
  }
+.aficion:hover{
+    scale: 1.2;
+    transition: 0.5s;
+}
 footer{
     background-color:rgb(104, 107, 84);
     height: 40px;
