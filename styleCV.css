@@ -32,6 +32,13 @@ a{
     font-size: 17px;
     transition: 0.5s;
 }
+.headerCV img{
+    width: 60%;    
+    border-radius: 12px;
+}
+picture{
+    text-align: center;
+}
 .container{
     background-color: rgba(219, 208, 229, 0.511);
     display: flex;
@@ -44,10 +51,6 @@ section{
 }
 #perfil{
     line-height: 22px;
-}
-.headerCV img{
-    width: 60%;    
-    border-radius: 12px;
 }
 h1{
     font-size: 8vh;
@@ -79,4 +82,104 @@ tr, th, td{
 }
 svg{
     width: 4%;
+}
+@media only screen and (max-width: 768px) {
+
+    nav{
+        background-color: rgb(141, 184, 184);
+        height: 4vh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center
+    }
+    .headerCV{
+        display: inline-flex;
+    }
+    .headerCV img{
+        width: 50%;
+    }
+    picture{
+        text-align: center;
+    }
+    h1{
+        font-size: 5vh;
+    }
+    h2{
+        font-size: 3.5vh;
+    }
+    ul{
+        font-size: 15px;
+    }
+    section{
+        width: 45%;
+        margin:0;
+    }
+    .container{
+        height: 950px;
+        max-height: 1100px;
+        font-size: 15px;
+    }
+    .tabla{
+        margin-left: 25px;
+    }
+    footer{
+        height: 30px;
+    }
+    #redes{
+        width: 3vh;
+        height: 3vh;
+    }
+    
+
+}
+@media only screen and (max-width: 600px) {
+
+    nav{
+        background-color: rgba(130, 96, 147, 0.399);
+        font-size: 12px;
+        display: flex;
+        justify-content:center;
+        align-items: center
+    }
+    .headerCV{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 5vh;
+    }
+    h2{
+        font-size: 3vh;
+    }
+    ul{
+        font-size: 11px;
+    }
+    .headerCV img{
+        width: 40%;    
+        border-radius: 12px;
+    }
+    section{
+        width: 90%;
+        margin:0;
+    }
+    .container{
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        height: 1580px;
+        max-height: 2500px;
+        font-size: 15px;
+    }
+    .tabla{
+        margin-left: 25px;
+    }
+    footer{
+        height: 30px;
+    }
+    #redes{
+        width: 2vh;
+        height: 2vh;
+    }
 }

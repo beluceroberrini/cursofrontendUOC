@@ -98,8 +98,7 @@ h3{
     border-radius: 10px;
     align-items: center;
     box-shadow: 2px 2px 20px rgb(125, 123, 123);
-    padding-bottom: 8px;
-    
+    padding-bottom: 8px;  
 }
 .proyecto img{
     width: 100%;
@@ -148,22 +147,23 @@ h3{
 }
 .aficiones{
     display: grid;
-    grid-template-columns: repeat(3, 300px) ;
+    grid-template-columns: repeat(3, 240px) ;
     grid-template-rows: 70px 70px;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     margin-bottom: 70px;
-    padding: 30px;
+    
+    
 }
  .aficion{
-    font-weight: 900;
+    font-weight: bold;
     display: flex;
     border: transparent;
     border-radius: 3px;
     background-color: rgba(165, 164, 163, 0.719);
     justify-content: space-around;
-    align-items: center;
-    padding: 15px;   
+    align-items: center;  
     font-size: 18px;
  }
 .aficion:hover{
@@ -181,4 +181,200 @@ footer{
     margin-right: 35px;
     width: 3.5vh;
     height: 3.5vh;
+}
+
+@media only screen and (max-width: 990px) {
+    .container-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 15px;
+    }
+    .proyecto{
+        width: 30%;
+        margin-bottom: 25px;
+        margin: 8px;
+    }
+    .parrafos{
+        width: 80%;
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav{
+        background-color: rgb(141, 184, 184);
+        font-size: 15px;
+        height: 4vh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center
+    }
+    .menu-inicio{
+        display: inline-flex;
+        padding: 0;
+    }
+    .menu-inicio li:hover{
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    .headerIndex{
+        height: 40vh;
+    }
+    .titulo h1{
+        font-size: 6vh;
+        padding: 5px;
+        line-height: 40px;
+    }
+    .titulo h2{
+        font-size: 4vh;
+    }
+    .titulo h3{
+        font-size: 2vh;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .sobremi{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .sobremi img{
+        width: 60%;
+    }
+    .proyecto{
+        width: 29%;
+        margin-bottom: 25px;
+    }
+    .parrafos{
+        width: 80%;
+        font-size: 13px;
+    }
+    .container-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 15px;
+    }
+    .expIndividual h3{
+        font-size: 30px;
+    }
+ 
+    .aficiones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aficion{
+        width: 70%;
+        padding: 0px;
+        font-size: 15px;
+    }
+    footer{
+        height: 40px;
+    }
+    #redes{
+        width: 2.5vh;
+        height: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav{
+        background-color: rgba(130, 96, 147, 0.399);
+        font-size: 12px;
+        height: 3vh;
+        display: flex;
+        justify-content:center;
+        align-items: center
+    }
+    .menu-inicio{
+        display: inline-flex;
+        padding: 0;
+    }
+    .menu-inicio li:hover{
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    .menu-inicio li{
+        margin: 15px;
+    }
+    .logocasa{
+        display: none;
+    }
+    .headerIndex{
+        height: 40vh;
+    }
+    .titulo h1{
+        font-size: 6vh;
+        padding: 5px 15px;
+        line-height: 40px;
+    }
+    .titulo h2{
+        font-size: 3vh;
+    }
+    .titulo h3{
+        font-size: 1.5vh;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .sobremi{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .sobremi img{
+        width: 60%;
+    }
+    .parrafos{
+        width: 80%;
+        font-size: 13px;
+    }
+    .container-proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+    .proyecto{
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .grafic{
+        width: 50%;
+    }
+    .container-experiencia{
+        display: flex;
+        flex-direction: column;
+    }
+    .expIndividual h3{
+        font-size: 30px;
+    }
+    .aficiones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aficion{
+        width: 70%;
+        padding: 0px;
+        font-size: 15px;
+    }
+    footer{
+        height: 30px;
+    }
+    #redes{
+        width: 2vh;
+        height: 2vh;
+    }
 }
