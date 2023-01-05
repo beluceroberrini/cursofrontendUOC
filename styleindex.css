@@ -43,7 +43,7 @@ nav{
 .titulo{
     line-height: 25px;
     text-align: center;
-    color: #9597a1c2;
+    color: rgba(149, 151, 161, 0.761);
 }
 h1{ 
     font-size: 10vh; 
